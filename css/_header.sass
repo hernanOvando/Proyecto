@@ -1,11 +1,27 @@
 header
-    background: url('../img/bg.jpg') #49a3d6
+    background: url('https://picsum.photos/640/360') #49a3d6
     background-repeat: no-repeat
     background-position: center
+    background-size: cover
     max-height: 600px
+    position: relative
+    &::before
+        content: ""
+        position: absolute
+        opacity: 0.5
+        top: 0
+        left: 0
+        bottom: 0
+        right: 0
+        background-color: #4b3b3b
+        position: absolute
+       
+        
     .menu
         margin: 40px 0
         text-align: right
+        position: relative
+        
         a
             margin: 0px 20px
             color: #fff
@@ -14,10 +30,12 @@ header
             border-bottom: 2px solid transparent
             padding-bottom: 9px
             font-size: 1em
+           
             &:hover
                 border-bottom: 2px solid #fff
     .contenedor-texto
         margin: 190px 0
+        position: relative
         display: flex
         justify-content: center
         align-items: center

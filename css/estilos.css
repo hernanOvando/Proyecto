@@ -16,15 +16,30 @@ body {
 }
 
 header {
-  background: url("../img/bg.jpg") #49a3d6;
+  background: url("https://picsum.photos/640/360") #49a3d6;
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   max-height: 600px;
+  position: relative;
+}
+
+header::before {
+  content: "";
+  position: absolute;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #4b3b3b;
+  position: absolute;
 }
 
 header .menu {
   margin: 40px 0;
   text-align: right;
+  position: relative;
 }
 
 header .menu a {
@@ -43,6 +58,7 @@ header .menu a:hover {
 
 header .contenedor-texto {
   margin: 190px 0;
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -231,7 +247,7 @@ footer .contacto .contenedor .formulario .boton:hover {
 }
 
 footer .redes-sociales {
-  background: #223241;
+  background: #86888a;
   padding: 60px 0;
 }
 
@@ -244,24 +260,44 @@ footer .redes-sociales .contenedor {
           justify-content: center;
 }
 
-footer .redes-sociales .contenedor .twitter:hover {
+footer .redes-sociales .contenedor .twitter {
   background: #1da1f2;
 }
 
-footer .redes-sociales .contenedor .facebook:hover {
+footer .redes-sociales .contenedor .twitter:hover {
+  opacity: 0.6;
+}
+
+footer .redes-sociales .contenedor .facebook {
   background: #1877f2;
 }
 
-footer .redes-sociales .contenedor .youtube:hover {
+footer .redes-sociales .contenedor .facebook:hover {
+  opacity: 0.6;
+}
+
+footer .redes-sociales .contenedor .youtube {
   background: #ff0000;
 }
 
-footer .redes-sociales .contenedor .github:hover {
+footer .redes-sociales .contenedor .youtube:hover {
+  opacity: 0.6;
+}
+
+footer .redes-sociales .contenedor .github {
   background: #333;
 }
 
-footer .redes-sociales .contenedor .instagram:hover {
+footer .redes-sociales .contenedor .github:hover {
+  opacity: 0.6;
+}
+
+footer .redes-sociales .contenedor .instagram {
   background: #f56040;
+}
+
+footer .redes-sociales .contenedor .instagram:hover {
+  opacity: 0.6;
 }
 
 footer .redes-sociales a {
@@ -269,7 +305,7 @@ footer .redes-sociales a {
   text-align: center;
   width: 100px;
   display: block;
-  padding: 15px 0;
+  padding: 15px;
   border-radius: 5px;
   font-size: 30px;
   margin: 0 10px;
