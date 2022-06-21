@@ -32,7 +32,7 @@ header::before {
   left: 0;
   bottom: 0;
   right: 0;
-  background-color: #4b3b3b;
+  background-color: #5f5b5b;
   position: absolute;
 }
 
@@ -336,7 +336,7 @@ footer .redes-sociales a {
   display: -ms-flexbox;
   display: flex;
   position: fixed;
-  bottom: 30px;
+  bottom: 90px;
   right: 30px;
   width: 55px;
   height: 55px;
@@ -355,6 +355,30 @@ footer .redes-sociales a {
 }
 
 .flotar .boton-whatsapp {
+  color: #fff;
+  font-size: 30px;
+}
+
+.flotarS {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 55px;
+  height: 55px;
+  border-radius: 100%;
+  background: #f56040;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flotarS .btn-subir {
   color: #fff;
   font-size: 30px;
 }
