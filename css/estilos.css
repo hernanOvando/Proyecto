@@ -331,15 +331,19 @@ footer .redes-sociales a {
   margin: 10px;
 }
 
-.flotar {
+.divflotar {
+  position: fixed;
+  bottom: 50px;
+  right: 30px;
+}
+
+.divflotar .flotar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: fixed;
-  bottom: 90px;
-  right: 30px;
   width: 55px;
   height: 55px;
+  margin-bottom: 10px;
   border-radius: 100%;
   background: #25d366;
   -webkit-box-pack: center;
@@ -350,22 +354,19 @@ footer .redes-sociales a {
           align-items: center;
 }
 
-.flotar:hover {
+.divflotar .flotar:hover {
   background: #1d8a45;
 }
 
-.flotar .boton-whatsapp {
+.divflotar .flotar .boton-whatsapp {
   color: #fff;
   font-size: 30px;
 }
 
-.flotarS {
+.divflotar .flotarS {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
   width: 55px;
   height: 55px;
   border-radius: 100%;
@@ -378,7 +379,7 @@ footer .redes-sociales a {
           align-items: center;
 }
 
-.flotarS .btn-subir {
+.divflotar .flotarS .btn-subir {
   color: #fff;
   font-size: 30px;
 }

@@ -9,6 +9,12 @@ $("#btn-subir").click(function (e) {
     return false
 });
 
+$(window).scroll(function(){
+    if ($(this).scrollTop() > 450)
+        $('.flotarS').fadeIn();
+    else
+        $('.flotarS').fadeOut();
+});
 
     
 })
