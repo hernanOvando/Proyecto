@@ -367,6 +367,10 @@ footer .redes-sociales a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: visibility 2s linear,opacity 2s linear;
+  transition: visibility 2s linear,opacity 2s linear;
   width: 55px;
   height: 55px;
   border-radius: 100%;

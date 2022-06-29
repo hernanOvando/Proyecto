@@ -11,9 +11,16 @@ $("#btn-subir").click(function (e) {
 
 $(window).scroll(function(){
     if ($(this).scrollTop() > 450)
-        $('.flotarS').fadeIn();
+    {
+    $('.flotarS').css("visibility","visible");
+    $('.flotarS').css("opacity","1");
+       
+    }
     else
-        $('.flotarS').fadeOut();
+    {
+    $('.flotarS').css("visibility","hidden");
+    $('.flotarS').css("opacity","0");
+    }
 });
 
     
