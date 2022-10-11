@@ -1,11 +1,10 @@
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
   background: #fff;
-  font-family: 'Open Sans',sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .contenedor {
@@ -23,7 +22,6 @@ header {
   max-height: 100vh;
   position: relative;
 }
-
 header::before {
   content: "";
   position: absolute;
@@ -35,13 +33,11 @@ header::before {
   background-color: #5f5b5b;
   position: absolute;
 }
-
 header .menu {
   margin: 40px 0;
   text-align: right;
   position: relative;
 }
-
 header .menu a {
   margin: 0px 20px;
   color: #fff;
@@ -51,17 +47,14 @@ header .menu a {
   padding-bottom: 9px;
   font-size: 1em;
 }
-
 header .menu a:hover {
   border-bottom: 2px solid #fff;
 }
-
 header .menu2 {
   margin: 40px 0;
   text-align: left;
   position: relative;
 }
-
 header .menu2 a {
   margin: 0px 20px;
   color: #fff;
@@ -71,25 +64,16 @@ header .menu2 a {
   padding-bottom: 9px;
   font-size: 1em;
 }
-
 header .menu2 a:hover {
   border-bottom: 2px solid #fff;
 }
-
 header .contenedor-texto {
   margin: 190px 0;
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 header .contenedor-texto .texto {
   border: 2px solid #fff;
   padding: 25px 40px;
@@ -97,19 +81,16 @@ header .contenedor-texto .texto {
   text-align: center;
   display: inline-block;
 }
-
 header .contenedor-texto .texto h1, header .contenedor-texto .texto h2 {
   color: #fff;
   font-weight: 300;
   margin: 0;
 }
-
 header .contenedor-texto .texto .nombre {
   margin-bottom: 30px;
   line-height: 25px;
   font-size: 40px;
 }
-
 header .contenedor-texto .texto .profesion {
   line-height: 25px;
   font-size: 20px;
@@ -119,30 +100,25 @@ main .contenedor {
   text-align: center;
   overflow: visible;
 }
-
 main .contenedor .texto {
   margin: 40px auto;
   width: 80%;
   line-height: 30px;
 }
-
 main .contenedor .texto h3 {
   font-size: 30px;
   color: #57cf33;
   font-weight: 500;
 }
-
 main .contenedor .texto span {
   font-style: italic;
   color: #09c0a1;
   text-decoration: underline;
 }
-
 main .trabajos {
   background: #e7e7e7;
   padding: 20px 0;
 }
-
 main .trabajos .contenedor .titulo {
   font-size: 30px;
   color: #57cf33;
@@ -150,47 +126,32 @@ main .trabajos .contenedor .titulo {
   line-height: 30px;
   padding-bottom: 30px;
 }
-
 main .trabajos .contenedor .contenedor-trabajos {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-
 main .trabajos .contenedor .contenedor-trabajos .trabajo {
   width: 23%;
 }
-
 main .trabajos .contenedor .contenedor-trabajos .trabajo .imagen {
   width: 100%;
   margin-bottom: 10px;
 }
-
 main .trabajos .contenedor .contenedor-trabajos .trabajo .imagen img {
   width: 100%;
   vertical-align: top;
   border-radius: 20px;
 }
-
 main .trabajos .contenedor .contenedor-trabajos .trabajo .descripcion {
   text-align: center;
 }
-
 main .trabajos .contenedor .contenedor-trabajos .trabajo .descripcion .nombre {
   color: #1684dd;
   font-size: 20px;
   font-weight: 300;
 }
-
 main .trabajos .contenedor .contenedor-trabajos .trabajo .descripcion .categoria {
   color: #6e7072;
   font-size: 10px;
@@ -201,7 +162,6 @@ footer .contacto {
   text-align: center;
   margin-bottom: 20px;
 }
-
 footer .contacto .contenedor .titulo {
   font-size: 30px;
   color: #57cf33;
@@ -209,20 +169,13 @@ footer .contacto .contenedor .titulo {
   line-height: 30px;
   padding-bottom: 30px;
 }
-
 footer .contacto .contenedor .formulario {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-
-footer .contacto .contenedor .formulario input[type="text"],
-footer .contacto .contenedor .formulario input[type="email"],
+footer .contacto .contenedor .formulario input[type=text],
+footer .contacto .contenedor .formulario input[type=email],
 footer .contacto .contenedor .formulario textarea {
   border: 2px solid #cecece;
   border-radius: 5px;
@@ -230,20 +183,17 @@ footer .contacto .contenedor .formulario textarea {
   font-size: 20px;
   color: #a4a4a4;
 }
-
-footer .contacto .contenedor .formulario input[type="text"]:focus,
-footer .contacto .contenedor .formulario input[type="email"]:focus,
+footer .contacto .contenedor .formulario input[type=text]:focus,
+footer .contacto .contenedor .formulario input[type=email]:focus,
 footer .contacto .contenedor .formulario textarea:focus {
   outline: none;
   border: 2px solid #57cf33;
 }
-
-footer .contacto .contenedor .formulario input[type="text"],
-footer .contacto .contenedor .formulario input[type="email"] {
+footer .contacto .contenedor .formulario input[type=text],
+footer .contacto .contenedor .formulario input[type=email] {
   width: 49%;
   margin-bottom: 15px;
 }
-
 footer .contacto .contenedor .formulario textarea {
   width: 100%;
   min-width: 100%;
@@ -252,7 +202,6 @@ footer .contacto .contenedor .formulario textarea {
   max-height: 300px;
   margin-bottom: 20px;
 }
-
 footer .contacto .contenedor .formulario .boton {
   margin: 20px auto;
   padding: 10px 25px;
@@ -261,65 +210,47 @@ footer .contacto .contenedor .formulario .boton {
   color: #fff;
   border-radius: 5px;
 }
-
 footer .contacto .contenedor .formulario .boton:hover {
   background: #008a0b;
 }
-
 footer .redes-sociales {
   background: #86888a;
   padding: 60px 0;
 }
-
 footer .redes-sociales .contenedor {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 footer .redes-sociales .contenedor .twitter {
   background: #1da1f2;
 }
-
 footer .redes-sociales .contenedor .twitter:hover {
   opacity: 0.6;
 }
-
 footer .redes-sociales .contenedor .facebook {
   background: #1877f2;
 }
-
 footer .redes-sociales .contenedor .facebook:hover {
   opacity: 0.6;
 }
-
 footer .redes-sociales .contenedor .youtube {
   background: #ff0000;
 }
-
 footer .redes-sociales .contenedor .youtube:hover {
   opacity: 0.6;
 }
-
 footer .redes-sociales .contenedor .github {
   background: #333;
 }
-
 footer .redes-sociales .contenedor .github:hover {
   opacity: 0.6;
 }
-
 footer .redes-sociales .contenedor .instagram {
   background: #f56040;
 }
-
 footer .redes-sociales .contenedor .instagram:hover {
   opacity: 0.6;
 }
-
 footer .redes-sociales a {
   color: #fff;
   text-align: center;
@@ -336,53 +267,35 @@ footer .redes-sociales a {
   bottom: 50px;
   right: 30px;
 }
-
 .divflotar .flotar {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 55px;
   height: 55px;
   margin-bottom: 10px;
   border-radius: 100%;
   background: #25d366;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 .divflotar .flotar:hover {
   background: #1d8a45;
 }
-
 .divflotar .flotar .boton-whatsapp {
   color: #fff;
   font-size: 30px;
 }
-
 .divflotar .flotarS {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   visibility: hidden;
   opacity: 0;
-  -webkit-transition: visibility 2s linear,opacity 2s linear;
-  transition: visibility 2s linear,opacity 2s linear;
+  transition: visibility 2s linear, opacity 2s linear;
   width: 55px;
   height: 55px;
   border-radius: 100%;
-  background: #f56040;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  background: #13d4d4;
+  justify-content: center;
+  align-items: center;
 }
-
 .divflotar .flotarS .btn-subir {
   color: #fff;
   font-size: 30px;
@@ -399,7 +312,6 @@ footer .redes-sociales a {
     width: 45%;
   }
 }
-
 @media (max-width: 500px) {
   header .contenedor-texto .texto .nombre {
     font-size: 25px;
@@ -410,13 +322,11 @@ footer .redes-sociales a {
   main .trabajos .contenedor .contenedor-trabajos .trabajo {
     width: 90%;
   }
-  footer .contacto .contenedor .formulario input[type="text"],
-  footer .contacto .contenedor .formulario input[type="email"] {
+  footer .contacto .contenedor .formulario input[type=text],
+footer .contacto .contenedor .formulario input[type=email] {
     width: 100%;
   }
   footer .redes-sociales .contenedor {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
-}
-/*# sourceMappingURL=estilos.css.map */
+}/*# sourceMappingURL=estilos.css.map */

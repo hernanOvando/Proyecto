@@ -14,6 +14,7 @@ $(window).scroll(function(){
     {
     $('.flotarS').css("visibility","visible");
     $('.flotarS').css("opacity","1");
+    
        
     }
     else
