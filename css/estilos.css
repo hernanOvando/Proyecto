@@ -19,7 +19,7 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  max-height: 100vh;
+  height: 100vh;
   position: relative;
 }
 header::before {
@@ -48,23 +48,6 @@ header .menu a {
   font-size: 1em;
 }
 header .menu a:hover {
-  border-bottom: 2px solid #fff;
-}
-header .menu2 {
-  margin: 40px 0;
-  text-align: left;
-  position: relative;
-}
-header .menu2 a {
-  margin: 0px 20px;
-  color: #fff;
-  text-decoration: none;
-  display: inline-block;
-  border-bottom: 2px solid transparent;
-  padding-bottom: 9px;
-  font-size: 1em;
-}
-header .menu2 a:hover {
   border-bottom: 2px solid #fff;
 }
 header .contenedor-texto {
@@ -107,7 +90,7 @@ main .contenedor .texto {
 }
 main .contenedor .texto h3 {
   font-size: 30px;
-  color: #57cf33;
+  color: #cf9133;
   font-weight: 500;
 }
 main .contenedor .texto span {
@@ -118,10 +101,11 @@ main .contenedor .texto span {
 main .trabajos {
   background: #e7e7e7;
   padding: 20px 0;
+  height: 100vh;
 }
 main .trabajos .contenedor .titulo {
   font-size: 30px;
-  color: #57cf33;
+  color: #cf9133;
   font-weight: 500;
   line-height: 30px;
   padding-bottom: 30px;
@@ -161,10 +145,11 @@ main .trabajos .contenedor .contenedor-trabajos .trabajo .descripcion .categoria
 footer .contacto {
   text-align: center;
   margin-bottom: 20px;
+  height: 100vh;
 }
 footer .contacto .contenedor .titulo {
   font-size: 30px;
-  color: #57cf33;
+  color: #cf9133;
   font-weight: 500;
   line-height: 30px;
   padding-bottom: 30px;
@@ -187,7 +172,7 @@ footer .contacto .contenedor .formulario input[type=text]:focus,
 footer .contacto .contenedor .formulario input[type=email]:focus,
 footer .contacto .contenedor .formulario textarea:focus {
   outline: none;
-  border: 2px solid #57cf33;
+  border: 2px solid #cf9133;
 }
 footer .contacto .contenedor .formulario input[type=text],
 footer .contacto .contenedor .formulario input[type=email] {
@@ -206,7 +191,7 @@ footer .contacto .contenedor .formulario .boton {
   margin: 20px auto;
   padding: 10px 25px;
   border: none;
-  background: #57cf33;
+  background: #cf9133;
   color: #fff;
   border-radius: 5px;
 }
@@ -323,7 +308,7 @@ footer .redes-sociales a {
     width: 90%;
   }
   footer .contacto .contenedor .formulario input[type=text],
-footer .contacto .contenedor .formulario input[type=email] {
+  footer .contacto .contenedor .formulario input[type=email] {
     width: 100%;
   }
   footer .redes-sociales .contenedor {
