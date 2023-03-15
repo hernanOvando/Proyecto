@@ -90,7 +90,7 @@ main .contenedor .texto {
 }
 main .contenedor .texto h3 {
   font-size: 30px;
-  color: #cf9133;
+  color: #18f548;
   font-weight: 500;
 }
 main .contenedor .texto span {
@@ -101,11 +101,10 @@ main .contenedor .texto span {
 main .trabajos {
   background: #e7e7e7;
   padding: 20px 0;
-  height: 100vh;
 }
 main .trabajos .contenedor .titulo {
   font-size: 30px;
-  color: #cf9133;
+  color: #18f548;
   font-weight: 500;
   line-height: 30px;
   padding-bottom: 30px;
@@ -149,7 +148,7 @@ footer .contacto {
 }
 footer .contacto .contenedor .titulo {
   font-size: 30px;
-  color: #cf9133;
+  color: #18f548;
   font-weight: 500;
   line-height: 30px;
   padding-bottom: 30px;
@@ -172,7 +171,7 @@ footer .contacto .contenedor .formulario input[type=text]:focus,
 footer .contacto .contenedor .formulario input[type=email]:focus,
 footer .contacto .contenedor .formulario textarea:focus {
   outline: none;
-  border: 2px solid #cf9133;
+  border: 2px solid #18f548;
 }
 footer .contacto .contenedor .formulario input[type=text],
 footer .contacto .contenedor .formulario input[type=email] {
@@ -191,7 +190,7 @@ footer .contacto .contenedor .formulario .boton {
   margin: 20px auto;
   padding: 10px 25px;
   border: none;
-  background: #cf9133;
+  background: #18f548;
   color: #fff;
   border-radius: 5px;
 }
