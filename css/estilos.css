@@ -40,7 +40,7 @@ header .menu {
 }
 header .menu a {
   margin: 0px 20px;
-  color: #fff;
+  color: #ffffff;
   text-decoration: none;
   display: inline-block;
   border-bottom: 2px solid transparent;
@@ -90,7 +90,7 @@ main .contenedor .texto {
 }
 main .contenedor .texto h3 {
   font-size: 30px;
-  color: #18f548;
+  color: #f056d6;
   font-weight: 500;
 }
 main .contenedor .texto span {
@@ -104,7 +104,7 @@ main .trabajos {
 }
 main .trabajos .contenedor .titulo {
   font-size: 30px;
-  color: #18f548;
+  color: #f056d6;
   font-weight: 500;
   line-height: 30px;
   padding-bottom: 30px;
@@ -148,7 +148,7 @@ footer .contacto {
 }
 footer .contacto .contenedor .titulo {
   font-size: 30px;
-  color: #18f548;
+  color: #f056d6;
   font-weight: 500;
   line-height: 30px;
   padding-bottom: 30px;
@@ -171,7 +171,7 @@ footer .contacto .contenedor .formulario input[type=text]:focus,
 footer .contacto .contenedor .formulario input[type=email]:focus,
 footer .contacto .contenedor .formulario textarea:focus {
   outline: none;
-  border: 2px solid #18f548;
+  border: 2px solid #f056d6;
 }
 footer .contacto .contenedor .formulario input[type=text],
 footer .contacto .contenedor .formulario input[type=email] {
@@ -190,7 +190,7 @@ footer .contacto .contenedor .formulario .boton {
   margin: 20px auto;
   padding: 10px 25px;
   border: none;
-  background: #18f548;
+  background: #f056d6;
   color: #fff;
   border-radius: 5px;
 }
